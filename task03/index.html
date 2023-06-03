@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <h1>All Tasks</h1>
+            <div class="list-group-item" draggable="true">Eat </div>
+            <div class="list-group-item" draggable="true">Sleep</div>
+            <div class="list-group-item" draggable="true">Code</div>
+            <div class="list-group-item" draggable="true">Repeat</div>
+            <div class="list-group-item" draggable="true">
+                Get The Job Offer
+            </div>
+            <div class="list-group-item" draggable="true">Impress the HR (in a good way)</div>
+        </div>
+        <div class="column">
+            <h1>In progress</h1>
+        </div>
+        <div class="column">
+            <h1>Paused</h1>
+        </div>
+        <div class="column">
+            <h1>Under Review</h1>
+        </div>
+        <div class="column">
+            <h1>Completed</h1>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"
+        integrity="sha512-zYXldzJsDrNKV+odAwFYiDXV2Cy37cwizT+NkuiPGsa9X1dOz04eHvUWVuxaJ299GvcJT31ug2zO4itXBjFx4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
